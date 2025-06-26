@@ -3,4 +3,6 @@ go
 drop table if exists body
 go
 create TABLE dbo.body(ID INT not null identity primary key,
-num int null)
+  planet varchar (50) not null
+num int null
+  )
